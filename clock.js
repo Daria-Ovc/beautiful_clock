@@ -31,7 +31,7 @@ function timeСhange() {
 
     //получаем текущую дату:
     let date = today_date.getDate();
-    let month = parseInt(today_date.getMonth(), 10) + 1;
+    let month = (today_date.getMonth() + 1);
     let year = today_date.getFullYear();
 
     if (date >= 0 && date <= 9)
